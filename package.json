@@ -1,0 +1,15 @@
+{
+  "name": "letterman",
+  "version": "0.0.1",
+  "description": "Letterman carry out all requests and responses by a Innotec rest-api. This module is not for public using!",
+  "main": "lib/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Wiesmüller <martin.wiesmueller@werbas-ag.com> (werbasinnotec.com)",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "3.9.0",
+    "roboter": "0.4.6"
+  }
+}
