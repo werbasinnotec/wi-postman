@@ -8,6 +8,7 @@ dependencies:
   pre:
     - npm install -g gulp
     - npm install -g roboter
+    - npm install -g mocha
     - npm install -g istanbul
 
 
