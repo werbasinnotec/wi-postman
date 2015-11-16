@@ -1,0 +1,21 @@
+machine:
+  timezone: Europe/Berlin
+
+  node:
+    version: 5.0.0
+
+dependencies:
+  pre:
+    - npm install -g gulp
+    - npm install -g roboter
+    - npm install -g istanbul
+
+
+general:
+  artifacts:
+    - "coverage" # relative to the build directory
+
+test:
+  override:
+    - bot analyse
+    - istanbul coverage _mocha
