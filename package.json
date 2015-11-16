@@ -9,7 +9,11 @@
   "author": "Martin Wiesmüller <martin.wiesmueller@werbas-ag.com> (werbasinnotec.com)",
   "license": "ISC",
   "dependencies": {
-    "gulp": "3.9.0",
+    "flaschenpost": "0.10.1",
+    "gulp": "3.9.0"
+  },
+  "devDependencies": {
+    "assertthat": "0.6.0",
     "roboter": "0.4.6"
   }
 }
