@@ -1,6 +1,6 @@
 # wi-postman
 
-Postman will handle all responses and request to an Innotec REST API.
+Postman will handle all responses and request to an Innotec REST API. If the module detect an server-error (statuscode 500 or 404), the module request an error-message to an activitylogger.
 
 ### Installation
 
@@ -72,3 +72,5 @@ Postman will handle all responses and request to an Innotec REST API.
             // The body in object res.statustext
             // Implementate your code
         });
+
+  (C) No License, only for WERBAS-Innotec products. Other uses with only own risks.
