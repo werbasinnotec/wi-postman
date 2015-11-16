@@ -1,6 +1,6 @@
 # wi-postman
 
-Postman will handle all responses and request to an Innotec REST API. 
+Postman will handle all responses and request to an Innotec REST API.
 
 ### Installation
 
@@ -11,6 +11,19 @@ Postman will handle all responses and request to an Innotec REST API.
 ### Implementate in Project
 
         var postman = require('wi-postman');
+
+
+### Options
+
+    {
+    entrypoint: Describe the API-entrypoint, (required)
+    werbasdebitorid: Describe the werbas-debitornumber, (required)
+    ressource: describe the ressource additionally the entrypount, (required)
+    token: the authorization-token by Innotec or Werbas BO Service,
+    activityloggerURL: URL to ActivityLogger if an error occurs,
+    m2mtoken: the m2mtoken by Innotec for activitylogger (is required when activityLoggerURL is set)
+    }
+
 
 ##### GET
 
@@ -59,4 +72,3 @@ Postman will handle all responses and request to an Innotec REST API.
             // The body in object res.statustext
             // Implementate your code
         });
-
