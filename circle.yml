@@ -19,4 +19,4 @@ general:
 test:
   override:
     - bot analyse
-    - istanbul coverage _mocha
+    - istanbul cover _mocha
