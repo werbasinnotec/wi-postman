@@ -6,7 +6,7 @@
   "author": "Martin Wiesmüller <martin.wiesmueller@werbas-ag.com> (werbasinnotec.com)",
   "license": "MIT",
   "dependencies": {
-    "flaschenpost": "0.10.1",
+    "console-browserify": "1.1.0",
     "gulp": "3.9.0",
     "moment": "2.10.6",
     "xmlhttprequest": "1.8.0"
